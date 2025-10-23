@@ -1,0 +1,13 @@
+services:
+  go-learning:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: go-learning
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: bash
+    tty: true
+    stdin_open: true

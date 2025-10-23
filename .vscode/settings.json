@@ -1,0 +1,21 @@
+{
+  "go.useLanguageServer": true,
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
+  "go.formatTool": "gofmt",
+  "editor.formatOnSave": true,
+  "go.toolsManagement.autoUpdate": true,
+  "files.eol": "\n",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.rulers": [120],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/tmp": true,
+    "**/vendor": true
+  }
+}
