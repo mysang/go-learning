@@ -129,7 +129,7 @@ fmt.Println(score) // prints 0
 
 Run the following command inside your container:
 
-```go
+```bash
 go run ./lessons/01_variables
 ```
 
